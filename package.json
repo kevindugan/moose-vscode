@@ -8,6 +8,7 @@
         "vscode": "^1.23.0"
     },
     "icon": "icon.png",
+    "homepage": "https://github.com/kevindugan/moose-vscode",
     "repository": {
         "type": "git",
         "url": "https://github.com/kevindugan/moose-vscode"
