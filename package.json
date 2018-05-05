@@ -1,0 +1,26 @@
+{
+    "name": "moose-input",
+    "displayName": "moose-input",
+    "description": "MOOSE input files",
+    "version": "0.0.1",
+    "publisher": "ORNL",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mooseinput",
+            "aliases": ["MOOSE", "mooseinput"],
+            "extensions": [".i"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mooseinput",
+            "scopeName": "source.moose.input",
+            "path": "./syntaxes/mooseinput.tmLanguage.json"
+        }]
+    }
+}
