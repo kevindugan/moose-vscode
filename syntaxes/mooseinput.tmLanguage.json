@@ -15,8 +15,8 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.mooseinput",
-				"match": "\\b(if|while|for|return)\\b"
+				"name": "keyword.mooseinput",
+				"match": "\\b(file|order|family)\\b"
 			}]
 		},
 		"strings": {
